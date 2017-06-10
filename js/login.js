@@ -20,8 +20,8 @@ $('#login-btn').click(() => {
     $('#container').hide();
     $('.spin').show();
 
-    let email = $('#user-email').val();
-    let password = $('#user-password').val();
+    
+
 
     // validate the data 
 
@@ -31,6 +31,8 @@ $('#login-btn').click(() => {
         $('#login-btn').attr('disabled', false);
 
            // create the user object 
+            let email = $('#user-email').val();
+            let password = $('#user-password').val();
 
             let userData = {
                 email,
