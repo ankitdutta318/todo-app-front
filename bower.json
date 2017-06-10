@@ -1,0 +1,17 @@
+{
+  "name": "todo-app-front",
+  "authors": [
+    "geekankit318 <geekankit318@gmail.com>"
+  ],
+  "description": "this is what people will look at",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
